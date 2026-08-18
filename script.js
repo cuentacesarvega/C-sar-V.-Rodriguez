@@ -84,6 +84,8 @@ const I18N = {
     'crd.14.title': 'Publicidad',
     'crd.17.title': 'Producción y diseño sonoro',
 
+    'crd.estampida.note': 'Netflix / Fabula MX · México.',
+    'crd.justicia.note': 'Canal Once / Contra el Viento Films · México. Showrunner: Natasha Ybarra.',
     'crd.1.note': 'Península Films · México.',
     'crd.2.note': 'Malacosa Films · México. Microfonía, operación de boom y cableado.',
     'crd.3.note': 'Bebop Productions · México / Estados Unidos. Microfonía y operación de boom.',
@@ -175,6 +177,8 @@ const I18N = {
     'crd.14.title': 'Commercials',
     'crd.17.title': 'Production & sound design',
 
+    'crd.estampida.note': 'Netflix / Fabula MX · Mexico.',
+    'crd.justicia.note': 'Canal Once / Contra el Viento Films · Mexico. Showrunner: Natasha Ybarra.',
     'crd.1.note': 'Península Films · Mexico.',
     'crd.2.note': 'Malacosa Films · Mexico. Boom operation and cabling.',
     'crd.3.note': 'Bebop Productions · Mexico / United States. Boom operation.',
