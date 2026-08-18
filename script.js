@@ -44,7 +44,7 @@ const I18N = {
     'hero.lede': 'Sonido directo para cine, publicidad, streaming, podcasts y documental. Experiencia en sets de distinta naturaleza.',
     'hero.cta1': 'Ver trabajo',
     'hero.cta2': 'Contactar',
-    'hero.meta1': 'Base: [Ciudad, País]',
+    'hero.meta1': 'Base: CDMX, México',
     'hero.meta2': 'Disponible para viajar',
     'hero.meta3': 'Cine · Publicidad · Streaming · Podcasts · Documental',
 
@@ -135,7 +135,7 @@ const I18N = {
     'hero.lede': 'Production sound for film, commercials, streaming, podcasts and documentary. Experience across very different kinds of set.',
     'hero.cta1': 'View work',
     'hero.cta2': 'Get in touch',
-    'hero.meta1': 'Based in [City, Country]',
+    'hero.meta1': 'Based in Mexico City',
     'hero.meta2': 'Available to travel',
     'hero.meta3': 'Film · Commercial · Streaming · Podcasts · Documentary',
 
