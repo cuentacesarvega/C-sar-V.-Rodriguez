@@ -205,9 +205,11 @@ button { font: inherit; }
 }
 
 /* El nombre va siempre en una sola línea: el tamaño se calcula a partir
-   del ancho disponible (~9.25em de largo con este tracking), no al revés. */
+   del ancho disponible. "César V. Rodríguez" mide 7.88em con este
+   tracking; si cambias el texto, vuelve a ajustar estos tres valores
+   o se saldrá de la caja, porque no puede partirse en dos líneas. */
 .hero-title {
-  font-size: clamp(1.45rem, 7.6vw, 6.1rem);
+  font-size: clamp(1.7rem, 8.9vw, 7.1rem);
   line-height: 1;
   font-weight: 500;
   letter-spacing: -0.045em;
