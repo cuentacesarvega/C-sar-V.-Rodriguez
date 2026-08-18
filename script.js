@@ -22,10 +22,10 @@
    --------------------------------------------------------- */
 const CLIPS = {
   'showreel':       { vimeo: '1183868281', hash: '', local: '' },
-  'comet':          { vimeo: '', hash: '', local: 'Videos/Proyecto01B.mp4' },
-  'against-nature': { vimeo: '', hash: '', local: 'Videos/Proyecto02B.mp4' },
-  'nube':           { vimeo: '', hash: '', local: 'Videos/Proyecto03.mp4'  },
-  'sed':            { vimeo: '', hash: '', local: 'Videos/Proyecto04.mp4'  }
+  'comet':          { vimeo: '1219082448', hash: '', local: 'Videos/Proyecto01B.mp4' },
+  'against-nature': { vimeo: '1219082449', hash: '', local: 'Videos/Proyecto02B.mp4' },
+  'nube':           { vimeo: '1219082451', hash: '', local: 'Videos/Proyecto03.mp4'  },
+  'sed':            { vimeo: '1219082450', hash: '', local: 'Videos/Proyecto04.mp4'  }
 };
 
 /* ---------------------------------------------------------
