@@ -1,0 +1,8 @@
+# Los clips no se publican: van en Vimeo y se incrustan desde allí.
+# Se quedan en tu disco para poder revisar la página en local.
+Videos/
+
+# Basura del sistema
+Thumbs.db
+desktop.ini
+.DS_Store

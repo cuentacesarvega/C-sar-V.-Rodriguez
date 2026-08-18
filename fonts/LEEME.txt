@@ -1,0 +1,57 @@
+FUENTE COOLVETICA
+=================
+
+La página ya está configurada para usar Coolvetica en tres elementos del hero:
+
+  - "Sonido directo · Diseño sonoro"  (.eyebrow)
+  - "Production Sound Mixer"          (.hero-role)
+  - El párrafo de presentación        (.hero-lede)
+
+ESTADO: instalada. El archivo es coolvetica.otf (65 KB, OpenType).
+
+
+SI ALGÚN DÍA HAY QUE REINSTALARLA
+---------------------------------
+
+1. Descarga la fuente desde:
+   https://www.dafont.com/es/coolvetica.font
+
+2. Descomprime el ZIP y copia el archivo de fuente a ESTA carpeta.
+
+3. Renómbralo a "coolvetica" conservando su extensión real:
+
+       coolvetica.otf   si el archivo es OpenType
+       coolvetica.ttf   si es TrueType
+
+   styles.css declara los dos, así que cualquiera de ellos vale.
+
+   CUIDADO con las extensiones ocultas de Windows: si el Explorador las
+   esconde y renombras a "coolvetica.ttf" un archivo que en realidad es
+   .otf, el nombre acaba siendo "coolvetica.ttf.otf" y el navegador no
+   lo encuentra. Para verlas: Explorador > Vista > Mostrar >
+   Extensiones de nombre de archivo.
+
+4. Recarga la página con Ctrl+F5.
+
+
+OPCIONAL: VERSIÓN LIGERA
+------------------------
+
+El .otf actual pesa 65 KB; en .woff2 bajaría a unos 30 KB y cargaría antes.
+Para convertirlo, sube el archivo a un conversor como
+https://cloudconvert.com/otf-to-woff2 y deja el resultado aquí como:
+
+       coolvetica.woff2
+
+No hace falta tocar el CSS ni borrar el .otf: styles.css declara los tres
+formatos en orden y el navegador se queda con el primero que reconoce.
+
+
+LICENCIA
+--------
+
+Comprueba en la ficha de dafont bajo qué licencia se distribuye antes de
+publicar el sitio. Muchas fuentes de dafont son gratuitas solo para uso
+personal, y un portafolio profesional suele considerarse uso comercial.
+Si ese fuera el caso, Ray Larabie vende licencias comerciales a través de
+Typodermic Fonts.
