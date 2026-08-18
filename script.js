@@ -121,7 +121,7 @@ const I18N = {
     'cap.5.d': 'Español (nativo) · Inglés (conversación en set).',
 
     'contact.title': 'Contacto',
-    'contact.note': 'Cuéntame fechas, formato y localización del proyecto. Respondo en menos de 24 horas.',
+    'contact.note': 'Cuéntame fechas, formato y naturaleza del proyecto. Respondo en menos de 24 horas.',
     'contact.cv': 'Descargar CV (PDF)',
 
     'footer.top': 'Volver arriba ↑'
@@ -214,7 +214,7 @@ const I18N = {
     'cap.5.d': 'Spanish (native) · English (conversational, on set).',
 
     'contact.title': 'Contact',
-    'contact.note': 'Send me your dates, format and shooting location. I reply within 24 hours.',
+    'contact.note': 'Send me your dates, format and the nature of the project. I reply within 24 hours.',
     'contact.cv': 'Download CV (PDF)',
 
     'footer.top': 'Back to top ↑'
