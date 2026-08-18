@@ -21,6 +21,7 @@
    nunca se publica, porque la carpeta Videos/ no va al repo.
    --------------------------------------------------------- */
 const CLIPS = {
+  'showreel':       { vimeo: '1183868281', hash: '', local: '' },
   'comet':          { vimeo: '', hash: '', local: 'Videos/Proyecto01B.mp4' },
   'against-nature': { vimeo: '', hash: '', local: 'Videos/Proyecto02B.mp4' },
   'nube':           { vimeo: '', hash: '', local: 'Videos/Proyecto03.mp4'  },
@@ -50,7 +51,7 @@ const I18N = {
 
     'work.title': 'Trabajo seleccionado',
     'work.note': 'Una muestra de proyectos representativos. Créditos completos disponibles bajo solicitud.',
-    'work.reel': 'Showreel 2026 — 2 min · Usa auriculares para escucharlo como corresponde.',
+    'work.reel': 'Reel de diseño sonoro — 2:11 · Usa auriculares para escucharlo como corresponde.',
     'work.dir': 'Dir.',
     'work.creditsTitle': 'Créditos',
 
@@ -141,7 +142,7 @@ const I18N = {
 
     'work.title': 'Selected work',
     'work.note': 'A sample of representative projects. Full credits available on request.',
-    'work.reel': 'Showreel 2026 — 2 min · Best experienced with headphones.',
+    'work.reel': 'Sound design reel — 2:11 · Best experienced with headphones.',
     'work.dir': 'Dir.',
     'work.creditsTitle': 'Credits',
 
@@ -296,7 +297,9 @@ if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
   document.querySelectorAll('.work-embed').forEach((hueco) => {
     const clip   = CLIPS[hueco.dataset.clip];
-    const titulo = hueco.closest('.work-card').querySelector('.work-name').textContent.trim();
+    const tarjeta = hueco.closest('.work-card');
+    const titulo  = hueco.dataset.title ||
+                    (tarjeta ? tarjeta.querySelector('.work-name').textContent.trim() : 'Vídeo');
     if (!clip) { hueco.remove(); return; }
 
     if (clip.vimeo) {
